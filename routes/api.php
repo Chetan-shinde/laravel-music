@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\MusicController;
+use App\Http\Controllers\SongController;
 
 
 /*
