@@ -9,6 +9,6 @@ class SongController extends Controller
 {
     public function getSongs(){
     	$songs = Song::getSongs();
-    	return response()->json(["success"=>true, "songs"=>$songs);
+    	return response()->json(["success"=>true, "songs"=>$songs]);
     }
 }
