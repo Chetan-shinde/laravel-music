@@ -8,7 +8,8 @@ use App\Models\Song;
 class SongController extends Controller
 {
     public function getSongs(){
-    	$songs = Song::getSongs();
+    	$song = new Song();
+    	$songs = $song->getSongs();
     	return response()->json(["success"=>true, "songs"=>$songs]);
     }
 }
